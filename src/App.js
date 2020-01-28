@@ -1,17 +1,16 @@
-// import selfImage from './img/headshot.jpeg'
 var contentNode = document.getElementById('contents');
 
-
-
-const introduction = <p>I am a gradute student at SDSU. I love playing sports and reading.</p>;
+const fullName = <h1>Manisha Rangaraju</h1>;
 
 const headshot = <div> <img src='./img/headshot.jpeg'/> </div>;
 
-const component = <div>
-    <h1>Manisha Rangaraju</h1>
-    <div>
-    <img src='./img/headshot.jpeg'/>    
-</div> {introduction}</div>;
+const introduction = <p>I am a gradute student at SDSU. I love playing sports and reading.</p>;
+
+
+const component = <div className="element">
+    {fullName}
+    {headshot}
+    {introduction}</div>;
 
 
 
