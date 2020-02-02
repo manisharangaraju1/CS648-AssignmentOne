@@ -1,0 +1,17 @@
+.element{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.border{
+    text-align: center;
+    width: 90%;
+    border: solid #000000 3px;
+    padding: 5px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
